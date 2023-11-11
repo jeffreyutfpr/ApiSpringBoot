@@ -48,4 +48,7 @@ public class User {
     @CreatedDate
     private LocalDateTime createdAt ;
 
+    @Column(name = "isActive" ,columnDefinition = "TINYINT(1)" )
+    private boolean isActive;
+
 }
