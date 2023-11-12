@@ -7,6 +7,8 @@ import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -36,5 +38,8 @@ public class Tracking {
     @Column(name = "state", nullable = false)
     private StateTracker state;
     */
+
+
+  //  private ArrayList<Event> listEvents;
 
 }
