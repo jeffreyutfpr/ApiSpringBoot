@@ -11,7 +11,6 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
-rastreamento.iml
 
 # Eclipse m2e generated files
 # Eclipse Core
@@ -19,3 +18,4 @@ rastreamento.iml
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .class
+!/rastreamento.iml
